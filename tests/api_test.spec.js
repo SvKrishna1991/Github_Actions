@@ -53,5 +53,5 @@ test('API get request test', async ({ request }) => {
 
     const text = await response.text();
     expect(text).toContain('sunt aut facere repellat provident occaecati excepturi optio reprehenderit');
-    console.log(await response.json());
+   
 })
